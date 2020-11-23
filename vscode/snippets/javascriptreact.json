@@ -1,0 +1,44 @@
+{
+	"ImportReact": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "impr",
+		"body": [
+			"import React from 'react';"
+		],
+		"description": "Shortcut to import react to your project"
+	},
+	"ImportReactNative": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "imprn",
+		"body": [
+			"import {} from 'react-native';"
+		],
+		"description": "Shortcut to import react native to your project"
+	},
+	"ReactFunction": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "reactfc",
+		"body": [
+      "import React from 'react';",
+      "",
+      "interface Props {",
+      "};",
+			"",
+			"const ComponentName: React.FC<Props> = (props) => {",
+			"  return <></>;",
+      "};",
+      "",
+      "export default ComponentName;",
+      ""
+		],
+		"description": "Shortcut to create react function component"
+	},
+	"ImportPackage": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "imp",
+		"body": [
+			"import {} from 'package';"
+		],
+		"description": "Shortcut to import something"
+	}
+}

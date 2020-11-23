@@ -1,0 +1,54 @@
+{
+    "editor.detectIndentation": false,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "500",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Fira Code",
+    "editor.tabCompletion": "on",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": false,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+      120
+    ],
+    "explorer.compactFolders": false,
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": false,
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.4,
+    "todo-tree.tree.showScanModeButton": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.renderIndentGuides": "always",
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "[csharp]": {
+      "editor.tabSize": 4
+    },
+    "[html]": {
+      "editor.tabSize": 2
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+  }
