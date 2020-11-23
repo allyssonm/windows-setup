@@ -33,7 +33,6 @@ choco install vscode --yes --params "/NoDesktopIcon"
 choco install firacode --yes
 Copy-Item "$(Get-Location)\vscode\*" -Destination "$($env:USERPROFILE)\AppData\Roaming\Code\User\";
 
-Write-Output 
 choco install linqpad
 choco install postman
 
